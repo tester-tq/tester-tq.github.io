@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#e2e2e2,#fffae2);
+}
+.image{
+    width: 100%;
+    background-size: 100% 100%;
+}
+.brand-logo{
+  width: 17vh;
+  padding: 10px !important;
+}
+.btn-login{
+  display: inline-block;
+  font-size: large;
+  background-color: #ffc0c0;
+  border-radius: 25px;
+  padding: 10px;
+
+}
+
+.navigation-bar{
+  background: linear-gradient(#f8da56,#fce892,#e2e2e2);
+  /* background-color: #fcd83e; */
+  height: 10vh;
+}
+
+.navbar-fixed{
+  height: 10vh;
+}
+.nav-wrapper{
+  width: 90% !important ;
+  margin: auto;
+}
+.a-items{
+  color: #494949;
+  font-size: medium;
+}
+.list-items{
+  margin-top: 15px;
+}
+.sidenav{
+  background-color: #959388;
+}
+.sidenav li>a{
+  color: white;
+}
+
+
+/* footer */
+
+.hovering{
+  color: rgb(230, 216, 216);
+transition: 0.3s;
+}
+.hovering:hover{
+transform: scale(1. 5);
+color: #fffd8a;
+}
+.page-footer{
+  background-color: #535a53;
+}
+
+
+/* plan.html */
+
+.card-style{
+  height: auto;
+  border-radius: 3%;
+}
+.card-style-1{
+    background-image: linear-gradient(-45deg, #64b5f6, #f403d1);
+}
+.card-style-2{
+    background-image: linear-gradient(-45deg, #cebe4a, #f321d7);
+}
+.card-style-3{
+    background-image: linear-gradient(-45deg, #a564fa, #16b84f);
+}
+.benefits{
+  line-height: 1.7;
+  font-weight: 400; 
+  color: #fcffd2;
+}
+.benefits li{
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.benefits li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.register{
+ padding: 10px;
+}
+.register a{
+  border-radius: 50px;
+  font-weight: 500;
+ background-color:  #355f81;
+}
+
+
+/* contact */
+
+.contact-div{
+  border-radius: 40px;
+  /* background-image: linear-gradient(45deg,#d4f5d3,#97b6fa); */
+  background-image: linear-gradient(45deg,#b7b9b7,#b1c9fd);
+}
+.contact-content{
+  transition: 0.3s;
+  color: rgb(78, 75, 98);
+}
+.contact-content:hover{
+  color: #000000;
+}
